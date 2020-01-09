@@ -1,0 +1,11 @@
+
+<div class="array-container">
+  <h1>MERGE SORT ALGORITHM IS USED TO SORT THE BARS</h1>
+  <h2 class="title">Bar Chart: Generated From 5 To 730 That Contains {{size}} Bars</h2>
+  <div *ngFor="let item of unSortedList" class="array-bar" [ngStyle]="{'background': 'aqua', 'height': item + 'px'}"></div>
+  <div>
+    <button (click)="sortList()" class="btn btn-primary btn-lg">Merge Sort</button>
+  </div>
+</div>
+
+
